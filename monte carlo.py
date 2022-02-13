@@ -28,7 +28,7 @@ for i in range(1, 51):
     down()
 
     
-    if sqrt(x**2 + y**2) <= 1:
+    if sqrt(x**2 + y**2) <= 200:
         dot(5, "blue")
     else:
         dot(5, "red")
